@@ -1616,6 +1616,15 @@ body {
 .cid-rupU9aSh61 blockquote {
   color: #767676;
 }
+.cid-ruYgYTLcle {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-ruYgYTLcle .mbr-text,
+.cid-ruYgYTLcle blockquote {
+  color: #767676;
+}
 .cid-rupUlWXXgU {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1623,6 +1632,59 @@ body {
 }
 .cid-rupUlWXXgU .mbr-text,
 .cid-rupUlWXXgU blockquote {
+  color: #767676;
+}
+.cid-ruYi2xdcpL {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-ruYi2xdcpL .mbr-text,
+.cid-ruYi2xdcpL blockquote {
+  color: #767676;
+}
+.cid-ruYlsgHrs6 {
+  background: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.cid-ruYlsgHrs6 .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-ruYlsgHrs6 .video-block {
+    width: 100% !important;
+  }
+}
+.cid-ruYmfV4y9A {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-ruYmfV4y9A .mbr-text,
+.cid-ruYmfV4y9A blockquote {
+  color: #767676;
+}
+.cid-ruYmikHh8C {
+  background: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.cid-ruYmikHh8C .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-ruYmikHh8C .video-block {
+    width: 100% !important;
+  }
+}
+.cid-ruYmjA6Mbj {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-ruYmjA6Mbj .mbr-text,
+.cid-ruYmjA6Mbj blockquote {
   color: #767676;
 }
 .cid-rupUnWEpXv {
