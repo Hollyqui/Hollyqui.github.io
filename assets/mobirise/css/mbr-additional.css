@@ -1429,10 +1429,13 @@ body {
 .cid-rupQMumPLy .mbr-text {
   color: #767676;
 }
+.cid-rupQMumPLy .mbr-text P {
+  text-align: left;
+}
 .cid-rupQMwkrGx {
   padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
+  padding-bottom: 0px;
+  background-image: url("../../../assets/images/geometric-pattern-png-6-2000x1250.png");
 }
 .cid-rupQMwkrGx .mbr-section-subtitle {
   color: #767676;
@@ -1521,7 +1524,7 @@ body {
 .cid-rupVcuJAPU {
   padding-top: 0px;
   padding-bottom: 90px;
-  background-color: #efefef;
+  background-image: url("../../../assets/images/geometric-pattern-png-6-2000x1250.png");
 }
 .cid-rupVcuJAPU .mbr-section-subtitle {
   color: #767676;
@@ -1686,6 +1689,40 @@ body {
 .cid-ruYmjA6Mbj .mbr-text,
 .cid-ruYmjA6Mbj blockquote {
   color: #767676;
+}
+.cid-ruYM5VG9zR {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-ruYM5VG9zR .card-box {
+  background-color: #efefef;
+  padding: 2rem;
+}
+.cid-ruYM5VG9zR h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-ruYM5VG9zR p {
+  color: #767676;
+  text-align: left;
+}
+.cid-ruYM5VG9zR .card-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-ruYM5VG9zR .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-ruYM5VG9zR .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }
 .cid-rupUnWEpXv {
   padding-top: 60px;
