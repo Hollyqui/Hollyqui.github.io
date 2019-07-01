@@ -523,7 +523,11 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote> <strong>Make your own website in a few clicks!</strong> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <strong>mobile friendly websites</strong> in a few clicks. Mobirise is one of the easiest website development tools <a href="https://mobirise.co/">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</blockquote>
+                <blockquote><p><span style="font-style: normal;">The key idea is that if the box of the object recognition is bigger than the maximal box size, the drone adjusts its distance accordingly: (current box size/maximal box size) * -3.
+<br></span><span style="font-style: normal; font-size: 1.09rem;"><br>Inversely, if the current box size is smaller than the minimal box size, the drone will move closer to the target :(minimal box size/current box size) * 3.&nbsp;</span></p><p><span style="font-style: normal; font-size: 1.09rem;"><br></span><span style="font-size: 1.09rem; font-style: normal;">This nonlinear computation is favored over a general linear approach such as: current box size - maximal box size) * 3. This is due to the fact that the change in box size on the last few meters is much bigger than at a high distance. At a distance of one metre, a person covers about half the screen whereas they almost cover the full screen half a metre closer. In comparison, there is no noticeable change between a box size of 100 metres or 110 metres away. Despite that, this formula is certainly not ideal. This is because it scales up drastically at big distances. Therefore dangerous situations can occur when the drone starts tracking from far away. In this case, the drone accelerates to very high speeds and will not stop in time due to its input delays.&nbsp;</span></p></blockquote><blockquote>
+<span style="font-size: 1.09rem;">Camera tilt&nbsp;<br></span><span style="font-style: normal; font-size: 1.09rem;"><br>The command for controlling camera tilt is very efficient in this current version. Despite it being relatively slow, it still keeps up with most of the motions of the drone. Increasing the sensitivity of the tilt was explored, but a tendency to overshoot the target rather than settle on its position was noticed. A helpful addition would have been to also make this function a polynomial. In doing so, the tilt should react faster and not overshoot the target. &nbsp;</span></blockquote><blockquote>Rotation
+<br><span style="font-style: normal; font-size: 1.09rem;"><br>The rotation is computed in the same way as the camera tilt and shows the same functionality. The only difference is that the rotation is sometimes unable to keep up with the objects. Therefore the same recommendation holds. It is advised to investigate a polynomial change in velocity.&nbsp;</span></blockquote><blockquote>Roll
+<br><span style="font-style: normal; font-size: 1.09rem;"><br>The roll command is very difficult to control. It is more difficult for the roll to keep up with the object’s movement as well as the other motion commands. It was observed that if it is set on a higher sensitivity, it overshoots very easily and if it is set on a lower sensitivity it almost always loses the object. It is also assumed that a polynomial/exponential translation would be beneficial, yet it seems that rotational tracking is (at least in open areas) much easier to implement.&nbsp;</span></blockquote>
             </div>
         </div>
     </div>
@@ -540,6 +544,17 @@
     </div>
 </section>
 
+<section class="cid-rv03vELP5I" id="video3-z">
+
+    
+    
+    <figure class="mbr-figure align-center container">
+        <div class="video-block" style="width: 61%;">
+            <div><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/ESfWo3vWIFU?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+    </figure>
+</section>
+
 <section class="mbr-section article content1 cid-rupUmKLRoL" id="content1-r">
     
      
@@ -551,13 +566,155 @@
     </div>
 </section>
 
+<section class="mbr-section article content1 cid-rv03UHaPyA" id="content2-10">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><span style="font-style: normal;">As seen in the videos showcasing the functioning of the drone, the drone can perform basic maneuvers in order to keep the target in frame. These include, moving forwards, backwards, to the sides, as well as adjusting the tilt of the camera. The drone correctly responds to most situations that require these operations, yet the drone’s functionality still has many flaws.
+<br></span><span style="font-size: 1.09rem; font-style: normal;"><br>The main issue with the current version of PyStalk is that there is a high input delay. This makes it impossible to track targets that move very quickly and change directions. In large part, this could be fixed by running the network on the drone itself rather than on a computer. The limiting part is not the neural network but rather the video display on the computer. With an efficient neural network such as pytorch’s YOLOv3, or one of tensorflow’s mobile object detectors, such an endeavour should be possible, without draining the drone’s battery or causing it to overheat. This would almost completely solve the issues regarding the input delays. This is because the video transmission via WIFI would no longer be necessary and therefore allow for instant transmission. Additionally, it would allow the drone to operate at any distance, rather than being limited to a 2-kilometre range around the computer operating it. &nbsp;<br></span><span style="font-size: 1.09rem; font-style: normal;"><br>Another issue that still has to be reviewed is the configuration of the hyperparameters; even though all algorithms prove to be working as intended, the specific values with which the movement is computed still need tweaking. To give an example, when the drone is in the ‘Fixed Tracking’ mode, it will overshoot slightly from left to right and vice versa (rather than stopping in front of the object). Whereas it is too slow in the ‘Rotation Tracking’ mode where it can easily lose it’s target (see minute 0:30 in the “tracking showcase” video.) This could be greatly improved by computing values polynomially/exponentially rather than linearly. For instance, the current formula to set the rotation speed is:&nbsp;</span></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features4 cid-rv04nc7gea" id="features4-12">
+    
+         
+
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="card p-3 col-12 col-md-6">
+                <div class="card-wrapper media-container-row media-container-row">
+                    <div class="card-box">
+                        
+                        <p class="mbr-text mbr-fonts-style display-7"><br>(centre of screen - position of object)*40= rotation velocity # 40 = scaling factor&nbsp;<br></p>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+
+            
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rv03WbK6sM" id="content2-11">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><span style="font-style: normal;">This would be fixed by making it polynomial, e.g.: 
+</span></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features4 cid-rv04nZcqK0" id="features4-13">
+    
+         
+
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="card p-3 col-12 col-md-6">
+                <div class="card-wrapper media-container-row media-container-row">
+                    <div class="card-box">
+                        
+                        <p class="mbr-text mbr-fonts-style display-7"><br>(centre of screen - position of object)^2&nbsp;<br></p>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+
+            
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rv054TGIIK" id="content2-15">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><span style="font-style: normal;">Which makes the drone rotate very quickly when the object is at the edge of the screen but very slowly when it is central. This should be employed for all (or most) parts of the movement control since the same issues are encountered when trying to stay at the correct distance and tilting the camera.<br></span><span style="font-size: 1.09rem; font-style: normal;"><br>One of the most successful implementations of the PyStalk project is its capacity to follow one single target, despite recognizing multiple targets. This is due to the box smoothing algorithm mentioned above. One can easily observe the drone capacity to recognize multiple people (multiple red boxes in the video) and still following the initial target.&nbsp;</span></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="mbr-section article content1 cid-rupUaT6NRa" id="content1-p">
     
      
 
     <div class="container">
         <div class="media-container-row">
-            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-8"><p>Conclusion</p></div>
+            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-8"><p>Conclusion and Future Ideas</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rv04qCmvDp" id="content2-14">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><span style="font-style: normal;">With respect to the available resources and time, this project is considered a success, given that PyStalk can make a drone follow humans autonomously at moderate speeds. Even though the general outcome is positive, there are still multiple aspects that can be improved upon.
+<br></span><span style="font-size: 1.09rem; font-style: normal;"><br>The installation tutorials are currently written for bash language, restraining the target audience to Linux and macOS computers. Moreover, the DroneVisionGUI code file of the PyParrot project cannot be used by macOS computers, since the VLC window is not allowed to open (this issue is specific to macOS; VLC has to be opened from the main thread). PyParrot provides a second vision server option (ffpmeg) which saves the picture and creates a video retrospectively via the VisionServer and DroneVision code files. However, it appears that a bug causes part of the frames to be unusable. Therefore, the vision module is only accessible for Linux operating systems via the VLC option. One of PyStalk future projects could be to expand its operating system compatibility. To achieve this, it is planned to use docker in the future.&nbsp;<br></span><span style="font-size: 1.09rem; font-style: normal;"><br>Beyond mediating these compatibility issues, this project strives to create an object detection network. This could easily be achieved since the target objects are very specific, and thus a more specific AI could increase its efficiency. This improvement could provide the basis for an entirely separate project as it requires the collection of a particular dataset and the designing a convolutional neural network which is non-trivial. Since most poaching occurs at night, a more effective way of identifying animals would be using thermal vision cameras. This would also greatly improve the certainty in object detection since it is much easier to pick up on a change in temperature than RGB colours. This is useful because animals are one of the few objects with raised temperature compared to the environment whereas they are evolved to blend in with the environment’s colours. Unfortunately, drones equipped with such cameras are not available due to monetary project constraints.<br></span><span style="font-size: 1.09rem; font-style: normal;"><br>The current linear computations used to convert the output from the CNN to the movement of the drone have shown to be unsuccessful when tracking fast moving targets. As proposed in the movement control section, these could be converted to exponential or polynomial control computations. This would allow for very fast movement in extreme situations (for example, if the target is near the edge of the screen). Additionally, by using tensorflow’s mobile nets (e.g. MobileNet v2) the computer vision part could be moved to the drone, allowing it to react much faster. It is expected that these two attainable improvements would lead to a significant increase in functionality.</span></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rv064dK2Jh" id="content1-18">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-8"><p>References</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rv05ECo7OL" id="content2-17">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><span style="font-style: normal;">Actman, J. (2019). Poaching animals, explained. Retrieved from https://www.nationalgeographic.com/animals/reference/poaching-animals/
+</span></blockquote><blockquote><span style="font-style: normal;">Ågren, S. (2017). Object tracking methods and their areas of application: A meta-analysis: A thorough review and summary of commonly used object tracking methods.
+</span></blockquote><blockquote><span style="font-style: normal;">
+</span><span style="font-style: normal; font-size: 1.09rem;">Ciric, I., Cojbasic, Z., Ristic-Durrant, D., Nikolic, V., Ciric, M., Simonovic, M. and Pavlovic, I. (2016). Thermal vision based intelligent system for human detection and tracking in mobile robot control system. Thermal Science, 20(suppl. 5), pp.1553-1559.&nbsp;</span></blockquote><blockquote><span style="font-style: normal;">Emissary Drones. (2019). What is Pitch, Roll and Yaw ?. Retrieved from https://emissarydrones.com/what-is-roll-pitch-and-yaw
+</span></blockquote><blockquote><span style="font-style: normal;">
+</span><span style="font-style: normal; font-size: 1.09rem;">Ess, A., Schindler, K., Leibe, B., &amp; Van Gool, L. (2010). Object detection and tracking for autonomous navigation in dynamic environments. The International Journal of Robotics Research, 29(14), 1707-1725.&nbsp;</span></blockquote><blockquote><span style="font-style: normal; font-size: 1.09rem;">Glasbey, C. and Horgan, G. (1995). Image analysis for the biological sciences. Chichester: John Wiley &amp; Sons, Chapter 4: Segmentation.&nbsp;</span></blockquote><blockquote><span style="font-style: normal;">
+</span><span style="font-style: normal; font-size: 1.09rem;">Grauman, K. and Leibe, B. (n.d.). Visual Object Recognition - Synthesis Lectures on Computer Vision # 1.&nbsp;</span></blockquote><blockquote><span style="font-style: normal;">
+</span><span style="font-style: normal; font-size: 1.09rem;">Liu, X., Tao, D., Song, M., Zhang, L., Bu, J., &amp; Chen, C. (2014). Learning to track multiple targets. IEEE transactions on neural networks and learning systems, 26(5), 1060-1073.&nbsp;</span></blockquote><blockquote><span style="font-style: normal;">
+</span><span style="font-style: normal; font-size: 1.09rem;">Meijer, W.; Scheer, S.; Whan, E.; Yang, C. and Kritski, E. (2018). Demand under the Ban – China Ivory Consumption Research Post-ban 2018. TRAFFIC and WWF, Beijing, China.&nbsp;</span></blockquote><blockquote><span style="font-style: normal;">Olivares-Mendez, M. A., Fu, C., Ludivig, P., Bissyandé, T. F., Kannan, S., Zurad, M., . . . Campoy, P. (2015). Towards an Autonomous Vision-Based Unmanned Aerial System against Wildlife Poachers. Sensors, 15(12), 31362-31391. 
+</span></blockquote><blockquote><span style="font-style: normal;">
+</span><span style="font-style: normal; font-size: 1.09rem;">Parrot Bebop 2. (2019). Retrieved from https://www.parrot.com/nl/en/drones/parrot-bebop-2&nbsp;</span></blockquote><blockquote><span style="font-style: normal;">
+</span><span style="font-style: normal; font-size: 1.09rem;">Pokharna, H. (2019). The best explanation of Convolutional Neural Networks on the Internet!. Retrieved from https://medium.com/technologymadeeasy/the-best-explanation-of-convolutional-neural-networks- on-the-internet-fbb8b1ad5df8.&nbsp;</span></blockquote><blockquote><span style="font-style: normal;">
+</span><span style="font-style: normal; font-size: 1.09rem;">Szeliski, R. (2011). Computer vision - Algorithms and Applications. New York: Springer, pp.575-640.&nbsp;</span></blockquote><blockquote><span style="font-style: normal;">
+</span><span style="font-style: normal; font-size: 1.09rem;">TechnoReview. (2019). Artificial Neural Network : Beginning of the AI revolution. Retrieved from https://hackernoon.com/artificial-neural-network-a843ff870338.&nbsp;</span></blockquote>
+            </div>
         </div>
     </div>
 </section>
