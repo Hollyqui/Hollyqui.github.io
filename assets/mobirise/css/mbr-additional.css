@@ -1896,6 +1896,19 @@ body {
     width: 100% !important;
   }
 }
+.cid-rv0tRvoLWp {
+  background: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.cid-rv0tRvoLWp .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-rv0tRvoLWp .video-block {
+    width: 100% !important;
+  }
+}
 .cid-rupUmKLRoL {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -2202,4 +2215,7 @@ body {
     width: 100% !important;
     margin-left: 0 !important;
   }
+}
+.cid-ruZ1B5ky7L .head-item {
+  text-align: left;
 }
