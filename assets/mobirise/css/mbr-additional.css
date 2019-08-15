@@ -3211,10 +3211,10 @@ body {
   content: '35';
 }
 .cid-rz9TfI5Jok .progress3 .progressbar-number:before {
-  content: '8';
+  content: '12';
 }
 .cid-rz9TfI5Jok .progress4 .progressbar-number:before {
-  content: '21';
+  content: '17';
 }
 .cid-rz9TfI5Jok .progress5 .progressbar-number:before {
   content: '0';
@@ -3226,45 +3226,6 @@ body {
   .cid-rz9TfI5Jok .progress_elements {
     padding-left: 3rem;
   }
-}
-.cid-rz9NeybYXb {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-image: url("../../../assets/images/mbr-1-1920x1280.jpg");
-}
-.cid-rz9MCq065i {
-  padding-top: 0px;
-  padding-bottom: 90px;
-  background-color: #232323;
-}
-.cid-rz9MCq065i .card-box {
-  background-color: #efefef;
-  padding: 2rem;
-}
-.cid-rz9MCq065i h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-rz9MCq065i p {
-  color: #767676;
-  text-align: left;
-}
-.cid-rz9MCq065i .card-wrapper {
-  position: relative;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  transition: box-shadow 0.3s;
-}
-.cid-rz9MCq065i .card-wrapper:hover {
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s;
-}
-.cid-rz9MCq065i .card-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
 }
 .cid-rz9z5Zstft {
   padding-top: 90px;
@@ -3344,6 +3305,45 @@ body {
     width: 100% !important;
     margin-left: 0 !important;
   }
+}
+.cid-rz9NeybYXb {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/mbr-1-1920x1280.jpg");
+}
+.cid-rz9MCq065i {
+  padding-top: 0px;
+  padding-bottom: 90px;
+  background-color: #232323;
+}
+.cid-rz9MCq065i .card-box {
+  background-color: #efefef;
+  padding: 2rem;
+}
+.cid-rz9MCq065i h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rz9MCq065i p {
+  color: #767676;
+  text-align: left;
+}
+.cid-rz9MCq065i .card-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rz9MCq065i .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-rz9MCq065i .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }
 .cid-rzabYcHi54 {
   padding-top: 90px;
