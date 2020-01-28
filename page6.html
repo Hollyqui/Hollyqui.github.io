@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v4.10.4, https://mobirise.com -->
+  <!-- Site made with Mobirise Website Builder v4.12.0, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v4.10.4, mobirise.com">
+  <meta name="generator" content="Mobirise v4.12.0, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/elephant-shrew-logo-246x246.png" type="image/x-icon">
   <meta name="description" content="The main page of the PyStalk animal surveillance drone github project">
   
-  <title>Stereovision</title>
+  <title>PyDepth</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/datatables/data-tables.bootstrap4.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
   
@@ -60,7 +60,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/h">how to create your own web page</a></section><section class="header6 cid-rNJJOKCNcL mbr-fullscreen" data-bg-video="https://www.youtube.com/watch?v=ESfWo3vWIFU" id="header6-13">
+<section class="engine"><a href="https://mobirise.info/q">responsive website templates</a></section><section class="header6 cid-rNJJOKCNcL mbr-fullscreen mbr-parallax-background" id="header6-13">
 
     
 
@@ -71,10 +71,9 @@
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
                 <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
-                    StereoVision<br></h1>
-                <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">Have fun with customizing the page - do me a favour and try to keep the structure of all other pages as it is (so only modify the Stereovision) one so that nothing changes for my personal website (which is also hosted on hollyqui.github.io)</p>
-                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-primary display-4" href="https://github.com/Hollyqui/Bebop2-Animal-Tracking/" target="_blank">GitHub Repo</a>
-                        <a class="btn btn-md btn-white-outline display-4" href="PyStalk.html#features18-i">DRONE</a></div>
+                    PyDepth<br></h1>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">&nbsp;PyDepth is a student-led project aimed at creating depth maps from stereo images. Throughout this project two methods were explored, both of which used convolutional neural networks and were grounded in machine learning. <br></p>
+                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-primary display-4" href="https://github.com/Hollyqui/PyDepth" target="_blank">GitHub Repo</a></div>
             </div>
         </div>
     </div>
@@ -93,11 +92,12 @@
     <div class="container">
         <div class="media-container-row">
             <div class="row col-12 col-md-12">
-                <div class="col-12 mbr-text mbr-fonts-style col-md-6 display-5">
-                     <p><span style="font-size: 1.5rem;">Poaching is recognised as one of the key extinction drivers for endangered species worldwide. With natural biodiversity at risk, new technologies are needed to protect endangered animals.</span><br></p>
+                <div class="col-12 mbr-text mbr-fonts-style col-md-6 display-7">
+                     <p><span style="font-size: 1.5rem;"><em>With autonomous devices becoming more widely used, there is a need for implementation of object-avoidance systems within these devices. This can be achieved by creating depth maps of the environment.</em></span><br></p>
                 </div>
                 <div class="col-12 mbr-text mbr-fonts-style display-7 col-md-6">
-                     <p>With 41,415 species acknowledged on the IUCN Red List as endangered, poaching presents a growing threat to Earth’s biodiversity. Poaching is recognised as one of the key extinction drivers for endangered species worldwide. However, traditional methods of combating poachers are no longer enough; new, more efficient methods are required. In this context, the capabilities of artificial intelligence and unmanned aerial vehicles (UAVs) such as drones, to fight poaching efforts will be explored. More specifically, this study used a pre-trained convolutional neural network (CNN) to detect a target autonomously. In this project, the drone camera was used for the detection and tracking of animals and poachers. The objects were detected using a pre-trained TensorFlow object detection model and the drone was accessed remotely using the PyParrot software. All the movement processing and connections between the systems were written by the project team. The results were promising, considering the available time and hardware limitations. The drone motion is not optimal and is relatively slow to react to the movement of the target. However, it can still follow humans at moderate speeds. Thus this project serves as a good proof of concept for a drone that can observe animals. &nbsp;</p>
+                     <p>Deep Convolutional Neural Networks are powerful machine learning algorithms that can be put to use in various circumstances. PyDepth is a student led project in which Convolutional Neural Networks are used in an attempt to create 3D models of an environment. Similarly to human eyes, the project strives to create an accurate evaluation of depth from two images taken by a stereo camera. Two methods are tested and explored: The first method fully relies on the learning capabilities of neural networks. The left and right images generated by the stereo camera are fed through a Dual input Convolutional Neural Network, and the network is trained to generate depth maps using prebuilt maps. The second method constructs disparity maps using the parallax shift between the left and right stereo images. It uses a Dual input Convolutional Neural Network to identify the parallax shift for each pixel and an iterative programme to generate the depth maps. Whilst the results of this study do indicate that generating depth maps with these two methods might be possible, it is clear that much optimisation would be needed to implement them accurately and in real time.
+</p>
                 </div>
                 
             </div>
@@ -111,16 +111,15 @@
 
     
     <div class="container">
-        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">
-            Drone Project</h2>
+        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">PyDepth Project</h2>
         <h3 class="mbr-section-subtitle display-5 align-center mbr-fonts-style mbr-light">Skip to the interesting sections!</h3>
         <div class="media-container-row pt-5 ">
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper ">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
-                        <div class="mbr-section-btn text-center"><a href="PyStalk.html#content10-n" class="btn btn-primary display-4">Learn More</a></div>
-                        <img src="assets/images/img-20190628-145653-41-676x507.jpg" alt="Mobirise" title="">
+                        <div class="mbr-section-btn text-center"><a href="page6.html#content1-17" class="btn btn-primary display-4">Learn More</a></div>
+                        <img src="assets/images/figure12-626x468.png" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">Introduction</h4>
@@ -134,7 +133,7 @@
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
                         <div class="mbr-section-btn text-center"><a href="PyStalk.html#content1-q" class="btn btn-primary display-4">Learn More</a></div>
-                        <img src="assets/images/img-20190628-145716-333-676x507.jpg" alt="Mobirise" title="">
+                        <img src="assets/images/beauty22-676x508.png" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">
@@ -150,10 +149,10 @@
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
                         <div class="mbr-section-btn text-center"><a href="PyStalk.html#content1-s" class="btn btn-primary display-4">Learn More</a></div>
-                        <img src="assets/images/img-20190628-145709-743-676x507.jpg" alt="Mobirise" title="">
+                        <img src="assets/images/figure13-626x471.png" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style display-7">Results</h4>
+                        <h4 class="card-title mbr-fonts-style display-7">Results: Method 1</h4>
                         <p class="mbr-text mbr-fonts-style display-7">
                             What we got</p>
                     </div>
@@ -179,10 +178,10 @@
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
                         <div class="mbr-section-btn text-center"><a href="PyStalk.html#content1-r" class="btn btn-primary display-4">Learn More</a></div>
-                        <img src="assets/images/img-20190628-145716-334-676x507.jpg" alt="Mobirise" title="">
+                        <img src="assets/images/fig13b-676x507.png" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style display-7">Discussion</h4>
+                        <h4 class="card-title mbr-fonts-style display-7">Results: Method 2</h4>
                         <p class="mbr-text mbr-fonts-style align-left display-7">
                             Why we got it</p>
                     </div>
@@ -193,7 +192,7 @@
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
                         <div class="mbr-section-btn text-center"><a href="PyStalk.html#content1-p" class="btn btn-primary display-4">Learn More</a></div>
-                        <img src="assets/images/img-20190628-145658-639-676x507.jpg" alt="Mobirise" title="">
+                        <img src="assets/images/beauty-676x483.png" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">
@@ -209,7 +208,7 @@
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
                         <div class="mbr-section-btn text-center"><a href="PyStalk.html#content1-t" class="btn btn-primary display-4">Learn More</a></div>
-                        <img src="assets/images/img-20190628-145653-42-676x507.jpg" alt="Mobirise" title="">
+                        <img src="assets/images/fig13a-676x505.png" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">
@@ -230,7 +229,7 @@
 
     <div class="container">
         <div class="media-container-row">
-            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-8"><p>Introduction and Theory</p></div>
+            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-8"><p><strong>Introduction and Theory</strong></p></div>
         </div>
     </div>
 </section>
@@ -242,14 +241,8 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote><p><span style="font-style: normal;">Poaching, which is the illegal hunting, capture or killing of animals, is a global problem: millions of animals from thousands of species are being killed or captured in their native habitats. Elephants, rhinos, and other impressive creatures, as well as smaller and rarer animals like lizards and monkeys, are amongst the many at risk of poaching (Actman, 2019). Poached animals are killed or captured for a variety of reasons, including their commercial values on the black market. Besides being killed for profit, some animals are targeted to prevent them from damaging farms or livestock. Poaching is in some cases the primary reason why a species is at risk of extinction (Meijer et al., 2018).
-</span></p><p><span style="font-style: normal;">
-</span></p><p><span style="font-style: normal;">The large size of animal habitats makes it difficult to control the area with the traditional surveillance methods, such as security guards. Conservationists are, in an effort to protect animals from poaching, beginning to use unmanned aerial vehicles (UAVs) such as drones to surveil habitats, locate poachers, and track animals.
-</span></p><p><span style="font-style: normal;">
-</span></p><p><span style="font-style: normal;">According to Olivares-Mendez et al (2015), an ideal anti-poaching drone would include “autonomous taking-off and following of a predefined position list, tracking animals, detecting poachers faces, tracking and following poachers vehicles and return, via an autonomously-landing scenario, on specific stations in order to recharge the batteries and prepare for the next surveillance flight”. 
-</span></p><p><span style="font-style: normal;">
-</span></p><p><span style="font-style: normal;">Within the constraints of this project, we aim to program an autonomous surveillance drone using machine learning and computer vision that can track animals or people when manually prompted to take off and land, called PyStalk.
-</span></p></blockquote>
+                <blockquote><p><span style="font-style: normal;"><br></span></p><p>PyDepth<span style="font-style: normal;"> is a continuation of a previous student-led project, </span>PyStalk<span style="font-style: normal;">, in which an algorithm was built and implemented in a drone to detect and track individuals. It was observed that whilst the tracking was correctly implemented, the drone was unable to circumvent objects placed in its path. Object detection and obstacle avoidance have the potential to increase the effectiveness of autonomous surveillance drones and to handle object-avoidance issues. This project is aimed at introducing two ways of implementing object avoidance through the use of depth and disparity maps of the surroundings. This was achieved by using Dual input Convolutional Neural Networks (DiCNN) at the core of each method. 
+</span></p><p><span style="font-style: normal;"><br></span></p></blockquote>
             </div>
         </div>
     </div>
@@ -262,7 +255,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote><p>Computer Vision and Image Understanding</p><p><span style="font-style: normal;">Computer vision can be seen as an attempt to mimic the human visual system. It can be broken down into four main modules as described in Figure 1 (Ciric et al., 2016).</span></p></blockquote>
+                <blockquote><p><strong>Artificial Neural Networks</strong></p><p><span style="font-style: normal;">Essential parts of this project were computational algorithms used to attain depth perception maps. Artificial Neural Networks (NN) are a set of algorithms modeled on the human brain, which have been shown to be efficient for machine learning <a href="http://dai.fmph.uniba.sk/courses/NN/haykin.neural-networks.3ed.2009.pdf" target="_blank">(Haykin, 2009)</a>. They generally consist of three main sections: an input layer, one or more hidden layers, and an output layer. Each layer plays an essential role and is comprised of a set of nodes, connected to one another via weights (see Figure 1). Using this structure, the algorithms can be trained to recognise patterns in datasets.&nbsp;</span></p></blockquote>
             </div>
         </div>
     </div>
@@ -277,11 +270,11 @@
             <div class="col-12 col-md-8">
                 <div class="media-container-row">
                     <div class="mbr-figure" style="width: 125%;">
-                      <img src="assets/images/computer-vision-block-diagram-474x245.png" alt="Mobirise" title="">  
+                      <img src="assets/images/figure1-694x340.png" alt="Mobirise" title="">  
                     </div>
                     <div class="media-content">
                         <div class="mbr-section-text">
-                            <p class="mbr-text mb-0 mbr-fonts-style display-7"><em>Figure 1: Computer vision block-diagram (Ciric et al., 2016)<br></em><br>Image acquisition is defined as the act of capturing and storing an image. After the image acquisition, the image segmentation focuses on dividing the pixels of a picture into regions or categories. The idea is to group the labelled pixels into connected regions according to their category (Glasbey and Horgan, 1995). This preprocessing is meant to facilitate the image understanding module. Reducing the area of interest and pre-labelling facilitates the analyzing process. The image understanding component is the essential and most challenging part of computer vision and consists of analyzing a scene and recognizing all of the constituent objects.&nbsp;</p>
+                            <p class="mbr-text mb-0 mbr-fonts-style display-7"><em><br></em><em>Figure 1</em>:<em> Illustration of the structure of a Neural Network with its three main sections: an input layer, hidden layers and an output layer. Each node is represented by a white circle and each weight by a connecting line (<a href="https://hollyqui.github.io/PyStalk.html">Fonau et al., 2019</a>).</em><br><br></p>
                         </div>
                     </div>
                 </div>
@@ -297,45 +290,150 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote><span style="font-style: normal;">Two different types of object recognition are distinguishable: generic recognition (or class recognition) and specific object recognition. Generic recognition is defined as generalizing to recognize instances of the same category. Specific object recognition (or instance recognition) differentiates instances within a class of objects (Grauman and Leibe, n.d.). 
-<br></span><span style="font-size: 1.09rem;"><span style="font-style: normal;"><br>While computers are able to restore a 3D vision of the real world despite their 2D perception, their image recognition is still considered less efficient than that of a two-year-old child. The key difference between human vision and computer vision lies in the inability of computers to give meaning to an image. Unlike humans who can describe and understand what they see, computers are limited in that regard. They need to be taught what is worth remembering, in order to assign any kind of value to an image. This memory comes in the form of databases with specific labels. These labels act as an explanation of the memories. The issue with recognition can be broken down into several common units. In the case that a computer knows what it is looking for, all it has to do is scan the image for a potential match with the given database. This is known as object detection. The match is generally determined by characteristic feature points and their geometrical alignment stored in the database. Given the myriad of positions an object can adopt, and the possibility of partial occlusion, it becomes clear that generic recognition is already a complex task. For each different potential representation of an object, the computer must be able to categorize them in the same group. Specific object recognition is an even more difficult task: the numerous options of postures and appearances of the same object are unlikely to be stored in a machine’s database (Szeliski, 2011). &nbsp;<br></span></span><span style="font-size: 1.09rem;"><br><span style="font-style: normal;">In an attempt to increase the object recognition efficiency of computers, computer vision has been enhanced by machine learning. Acting as an artificial brain, neural networks come closer to mimic the human visual system.&nbsp;</span></span></blockquote><blockquote>Convolutional Neural Network
-<br><span style="font-size: 1.09rem;"><br><span style="font-style: normal;">Recent advancements in computer sciences have seen new and more efficient ways to compute electronic systems. One such advancement is a computer program modeled on the crossed synaptic structure of the brain, Neural Networks (NN). NNs are often used in object classification or, in the context of this project, to identify objects and their position within an image. NNs are usually described in their simplest form as having three principal layers of connected nodes: an input layer, a hidden layer, and an output layer (as illustrated in Figure 2). <br><br>Nodes represent a form of artificial neuron denoted by a number between 0 and 1. Each node of one layer is connected to all the nodes of its adjacent layer by a weight, a random number between 0 and 1. Each node receives multiple inputs, makes a weighted sum over them, and returns the corresponding output (Pokharna, 2019). Each layer plays a crucial role in the network: Firstly, the input layer. It contains all the information that needs to be processed. For example, to feed an image into an input layer each pixel of the image would be assigned to individual nodes in the input layer. These values would correspond to a colour gradient and would be normalised before being fed to the network. <br><br>Secondly, the hidden layer is a layer of nodes that plays a crucial role in adding complexity to the network. It provides more trainable parameters that allow the network to distinguish itself further from the raw inputs (pixels in our example) and come closer to the desired outputs. More hidden layers have to be added when the task increases in difficulty. Multiple hidden layers add even more trainable parameters and therefore allow the network to make better predictions but require greater computational power. <br><br>Lastly, the output layer is a layer that provides the machine analysis of the situation. Each node on the output layer corresponds to a possible outcome. The value assigned to each node corresponds to the confidence level that the machine predicts that outcome. &nbsp;</span></span></blockquote>
+                <blockquote><p><span style="font-style: normal;">In the context of this project, the input layer receives the pixel values of the images. Each Red-Green-Blue (RGB) image consists of three tensors (one for each colour) of numbers between 0 and 255. This scale gives the brightness of each colour channel within that pixel. To feed these values through an NN, they all get flattened into a one dimensional tensor and each value gets assigned to a node. Each node is connected to all the nodes in the adjacent layer (one of the hidden layers) by a set of numbers called weights. The values that are assigned to each of the nodes (except the input layer) are given by the following formula:
+</span></p></blockquote>
             </div>
         </div>
     </div>
 </section>
 
-<section class="mbr-section content6 cid-rNJJOOpAN0" id="content6-1c">
+<section class="features4 cid-rOMGWkxG5t" id="features4-1b">
     
-     
+         
+
     
     <div class="container">
         <div class="media-container-row">
-            <div class="col-12 col-md-8">
-                <div class="media-container-row">
-                    <div class="mbr-figure" style="width: 125%;">
-                      <img src="assets/images/1-rgv6bb3chmvwsa8q6qth6q-624x387.png" alt="Mobirise" title="">  
-                    </div>
-                    <div class="media-content">
-                        <div class="mbr-section-text">
-                            <p class="mbr-text mb-0 mbr-fonts-style display-7"><em>Figure 2: Schematic of a Neural Network. <br></em><br>The first input layer is the point of data entries comprised of numpy arrays of numbers normalised between 0 and 1. This data is then fed through the neural network by multiplying each data point (node) by a weight (connection). This weighted sum comprises a single node of the hidden layer. This layer allows for more complexity in the system. The process is repeated until the output layer. This final layer is tested against the expected output and the weights are modified accordingly. This process is called training the network (TechnoReview, 2019).</p>
-                        </div>
+            <div class="card p-3 col-12 col-md-6">
+                <div class="card-wrapper media-container-row media-container-row">
+                    <div class="card-box">
+                        
+                        <p class="mbr-text mbr-fonts-style display-7">CurrentNode &nbsp;= &nbsp;Σ_i (PreviousNode)_i &nbsp;* &nbsp;Weight_i<br></p>
                     </div>
                 </div>
             </div>
+
+            
+
+            
+
+            
         </div>
     </div>
 </section>
 
-<section class="mbr-section article content1 cid-rNJJOOKKF4" id="content2-1d">
+<section class="mbr-section article content1 cid-rOMTEbOq1V" id="content2-1e">
 
      
 
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote><span style="font-style: normal;">Before a NN is able to make accurate predictions it needs to be trained. A large pool of data and their corresponding correct outcomes are fed into the network. The network predicts the outcomes solely based on the input data then compares its prediction with the correct outcome. It evaluates the difference and adjusts its weights accordingly to get more accurate predictions. In doing so, the network changes the values on its weights and nodes and trains itself to identify certain patterns within images. One can appreciate that this entire NN is solely modeled on a weighted sum formula.<br></span><span style="font-size: 1.09rem;"><br><span style="font-style: normal;">Normal NNs work well for basic classifications, however, when more complex tasks are required, they do not provide a sufficiently efficient solution. To combat this, Convolutional Neural Networks (CNN) exist. Unlike NNs, CNNs are applied on volumes: two dimensions of pixel resolution and one for the different colours: red, green, and blue. A one-dimensional filter of resolution smaller than the original image slides along the image. On its path, the dot product between the smaller parts of the image and the filter is computed and recorded. This process is called convolution. Each dot product is a scalar, that forms a “filtered image” as an output. Multiple independent filters are used, each is convolved with the image. In doing so multiple feature maps are created with dimensions smaller than the original image. Like the hidden layers in the NN adding multiple convolutional layers increases the precision and feature extraction of the network.&nbsp;<br></span></span><span style="font-size: 1.09rem;"><br><span style="font-style: normal;">There are a few additional and important features in the context of neural networks. One of these is the use of biases. A bias is an extra value added to a node. Biases can also be trained in combinations with weights. It helps the model adapt more efficiently to its training. Additionally, during training, it is possible that a node is reduced to zero. In this case, no amount of learning (or multiplying by numbers) will change this node. In effect, “killing off” a part of the network. &nbsp;</span></span></blockquote><blockquote>Object Tracking  and Autonomous Drone Navigation
-<br><span style="font-size: 1.09rem;"><br><span style="font-style: normal;">Taking one step closer towards human vision, object tracking involves the analysis and interpretation of videos which allow computers to upgrade their representation of the real world. The task of object tracking is the action of finding the position of an object in every frame. The efficiency of object tracking is dependent on the choice of object representation and on how suitable the object tracking method is. As illustrated in Figure 3, object </span></span><span style="font-style: normal;"><span style="font-size: 1.09rem;">tracking</span><span style="font-size: 1.09rem;"> relies on three main techniques: point tracking, kernel tracking and silhouette tracking (Ågren, 2017). This project focussed on kernel tracking, using a quadrilateral shape to determine primitive object region.&nbsp;</span></span></blockquote>
+                <blockquote><p><span style="font-style: normal;">After each layer there is an activation function. Activation functions convert input signals of a node into a well defined output. The function evaluates the relevance of a node and determines whether it should be active or not. These functions are essential for NN to learn and make sense of complicated data. There are many activation functions with different properties. One of the most widespread functions and also the one used in this project is the Rectified linear Unit (ReLu). Much like a half wave rectifier in electronics engineering, it is defined as the positive part of an argument:</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features4 cid-rOMH3C88B5" id="features4-1c">
+    
+         
+
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="card p-3 col-12 col-md-6">
+                <div class="card-wrapper media-container-row media-container-row">
+                    <div class="card-box">
+                        
+                        <p class="mbr-text mbr-fonts-style display-7"></p><p>f(x) = max(0,x)</p><p></p>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+
+            
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rOMUpzuQmo" id="content2-1f">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><span style="font-style: normal;">Additional concepts relative to NNs are supervised learning and backpropagation. Supervised learning is a method in which a NN learns to find patterns in data with already known outputs. A NN is given a set of data and gives an arbitrary output, which is then compared to the desired output of that data. Depending on how far off the NN is, it will adjust its weights to best match the desired output. This process is called backpropagation. In repeating backpropagation multiple times, the NN trains and eventually the NN should be able to predict desired outputs from previously unseen data (Hecht-Nielsen, 1992).
+</span></p><p><span style="font-style: normal;">Lastly, NNs often have an additional parameter called bias. A bias is a value that is added across different nodes. It is used as a constant that helps the network best fit the given data and for ensuring that certain layers do not go to zero (Lawrence et al, 1996). 
+</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rOMVTDPnaB" id="content2-1g">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><strong>Convolutional Neural Networks</strong></p><p><span style="font-style: normal;">A Convolutional Neural Network (CNN) is a class of deep NNs often used in visual imagery analysis. What distinguishes them from classical NNs is the addition of convolutional layers. In the case of imagery analysis, a convolutional layer is a NN layer that attempts to extract certain key features from an image (Xu, 2018). It does so by applying numerous filters or kernels of arbitrary sizes to the image (the mechanism is illustrated in Figure 2). With these features, the NN has an easier time to detect specific patterns, such as edges or shapes, which help the program make more accurate predictions.</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cid-rOMYEzC8Ka" id="image1-1j">
+
+    
+
+    <figure class="mbr-figure container">
+        <div class="image-block" style="width: 66%;">
+            <img src="assets/images/figure2-934x343.png" width="1400" alt="Mobirise" title="">
+            
+        </div>
+    </figure>
+</section>
+
+<section class="mbr-section article content1 cid-rOMYRWSAd0" id="content2-1k">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p>Figure 2: Applying filters in 2D Convolutional Neural Networks. NxN filter is dot-multiplied by NxN portion of the image. This figure illustrates a simple example of an image, a filter, and its corresponding output.
+&nbsp;<a href="https://towardsdatascience.com/a-beginners-guide-to-convolutional-neural-networks-cnns-14649dbddce8">(Suhyun, 2019)</a></p><p><br></p><p><span style="font-style: normal;">Each dot product in a convolution is a scalar that creates a filtered image as output. This image is generated as follows: starting from the top left corner, dot-multiplication is done for every NxN portion of the input image. In Figure 2 the final step is shown: dot-multiplication of the last NxN portion of the image with the filter, resulting in the value of the last element of the output image. The general structure of a CNNs with its distinct layers is visualised in Figure 3.</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cid-rON3LB3OrA" id="image1-1l">
+
+    
+
+    <figure class="mbr-figure container">
+        <div class="image-block" style="width: 66%;">
+            <img src="assets/images/figure-3-1466x785.png" width="1400" alt="Mobirise" title="">
+            
+        </div>
+    </figure>
+</section>
+
+<section class="mbr-section article content1 cid-rON41mQCEf" id="content2-1m">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p>Figure 3: An example of a CNN and its distinct layers. The input is an image. There are multiple concolutional and max pooling layers. The extracted features are flattened before being fed into a classical NN with its respective fully-connected layers. (<a href="https://towardsdatascience.com/">Saha, 2018</a>).</p><p><br></p><p><span style="font-style: normal;">In a CNN, there are many additional useful layers. These include: pooling layers, fully connected layers, dropout layers, and normalisation layers amongst many others. These layers contribute to increase the efficiency of the image processing. Here are some  noteworthy examples: As illustrated in figure 4, Pooling layers are used to progressively reduce the spatial size. They reduce the number of parameters and computations, yet maintain a reasonable accuracy. Another example, are dropout layers. These layers temporarily freeze certain nodes, in an attempt to prevent overtraining. Moreover, the convolutional part of a CNN can also contain normalisation layers in which batch normalisation is performed. These layers adjust and scale the activations to normalise the input layer. In Batch normalisation the node outputs are computed across the predetermined batch and are the same for each example in the batch (Santurkar et al, 2018). Therefore, it is a technique that improves speed, performance, and stability in a CNN (Cooijmans, 2016).&nbsp;</span></p></blockquote>
             </div>
         </div>
     </div>
@@ -350,11 +448,11 @@
             <div class="col-12 col-md-8">
                 <div class="media-container-row">
                     <div class="mbr-figure" style="width: 125%;">
-                      <img src="assets/images/annotation-2019-07-01-203223-880x255.png" alt="Mobirise" title="">  
+                      <img src="assets/images/figure3-596x439.png" alt="Mobirise" title="">  
                     </div>
                     <div class="media-content">
                         <div class="mbr-section-text">
-                            <p class="mbr-text mb-0 mbr-fonts-style display-7"><em>Figure 3: Object Tracking block-diagram (Ågren, 2017). <br></em><br>The point tracking approach modelizes the detected objects as points and tracks them by evaluating their position and motion. Kernel tracking relies on the computation of the motion of the object represented as primitive object region (frame). The tracking marker is a simple geometric shape enclosing the object. Kernel is referring to the appearance and shape of the object. Silhouette tracking uses kernel tracking to determine the region that matches the model, in the frame.&nbsp;</p>
+                            <p class="mbr-text mb-0 mbr-fonts-style display-7"><em>Figure 4: The process of max pooling and average pooling. Pooling is used to diminish the computational requirements yet maintain accuracy. Max pooling takes the highest intensity in an area, average pooling takes the average intensity in an area.  (<a href="https://towardsdatascience.com/">Saha, 2018</a>)</em></p>
                         </div>
                     </div>
                 </div>
@@ -370,8 +468,81 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote><span style="font-style: normal;">When implemented in a mobile device (i.e. a drone), object tracking enables a real-time autonomous navigation capacity. Assuming the consistency of object identification tracking, the main challenge of autonomous navigation is obstacle avoidance, especially in dynamic environments (Ess, et al., 2010). Tracking by detection associates the object detection results with integral trajectories to design a flying path (Lui, et al., 2014). This project will use a 2D image position and will assume that by following the target, obstacle avoidance is guaranteed. 
-</span></blockquote>
+                <blockquote><p><strong>Dual input Convolutional Neural Network</strong></p><p><span style="font-style: normal;">A Dual input Convolutional Neural Network (DiCNN) is a class of NN architectures derived from siamese NNs. They consist of three CNNs built in tandem as illustrated in Figure 5. Two input CNNs each receive an image and extract key features relative to them. These features then get combined into a third CNN. This CNN deconvolutes the information to generate a new image based on the inputs. The aim of deconvolution layers is to reconstruct an image using the features extracted from previous convolution layers. DiCNNs are used to find similarities between inputs and are also useful when attempting to draw a single conclusive output from two separate inputs.</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content6 cid-rOMk5K2rV4" id="content6-19">
+    
+     
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12 col-md-8">
+                <div class="media-container-row">
+                    <div class="mbr-figure" style="width: 125%;">
+                      <img src="assets/images/figure5-320x157.png" alt="Mobirise" title="">  
+                    </div>
+                    <div class="media-content">
+                        <div class="mbr-section-text">
+                            <p class="mbr-text mb-0 mbr-fonts-style display-7"><br><em>Figure 5:&nbsp;General structure of a DiCNN (<a href="https://innovationincubator.com/siamese-neural-network-with-pytorch-code-example/" target="_blank">Reni, 2019</a>).</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rOGg0jMuav" id="content2-11">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><strong>Parallax Shift as a Means of Depth Estimation</strong><span style="font-style: normal;">
+</span></p><p><span style="font-style: normal;"><br>An efficient way to generate depth estimation is to exploit the binocular disparity of stereo vision. This is the method employed by animal eyes, and can as well be adapted to computer vision. As stereo cameras are horizontally separated, any object in their visual field will be detected along two separate lines of sight. This difference between the cameras results in a phenomenon called parallax, or disparity shift. This phenomenon causes objects to be located in different positions within the two visual frames. The disparity shift is larger for objects that are closer to the cameras, and smaller for objects that are further away. The exact relationship between the disparity shift and the distance to the object is given by the following formula:</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features4 cid-rON75BTHsY" id="features4-1n">
+    
+         
+
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="card p-3 col-12 col-md-6">
+                <div class="card-wrapper media-container-row media-container-row">
+                    <div class="card-box">
+                        
+                        <p class="mbr-text mbr-fonts-style display-7"></p><p><em>z=(f*B)/d</em></p><p></p>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+
+            
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rON7ml4eDM" id="content2-1o">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><span style="font-style: normal;">where </span>z<span style="font-style: normal;"> is the distance from the camera to the object, </span>d<span style="font-style: normal;"> is the disparity shift between the two images,</span> f<span style="font-style: normal;"> is the focal length of the camera, and </span>B<span style="font-style: normal;"> is the horizontal distance between the camera centers. By training a NN to find similar patterns in an image, the disparity shift could be estimated for subsections of the image. Using this formula, the depth map could then be created (<a href="https://arxiv.org/pdf/1603.04992.pdf">Garg et al, 2016</a>).</span></p></blockquote>
             </div>
         </div>
     </div>
@@ -395,36 +566,10 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote>Drone Model &amp; Features
-<br><span style="font-size: 1.09rem;"><br><span style="font-style: normal;">The project was conducted with a Bebop2 drone from the Parrot company. Bebop2 has a 25 minutes long flying autonomy and weighs 500 grams. The drone has two flying modes: the videography mode and the sports mode. The camera is adapted for both indoor and outdoor environment ("Parrot Bebop 2", 2019).<br></span></span><span style="font-size: 1.09rem;"><span style="font-style: normal;"><br></span>Tutorials<br></span><span style="font-size: 1.09rem;"><br><span style="font-style: normal;">The PyStalk project can be reproduced by the tutorials stored on the following GitHub repository under the ‘<a href="https://github.com/Hollyqui/PyStalk/tree/master/Tutorial">Tutorial</a>’ folder.</span></span><span style="font-size: 1.09rem;"><span style="font-style: normal;"><br></span></span><span style="font-size: 1.09rem;"><br><span style="font-style: normal;">5 tutorials are available:<br></span></span><span style="font-size: 1.09rem;"><br><span style="font-style: normal;">The “short python intro” can be used to get the basics of Python programming language.<br></span></span><span style="font-style: normal;"><span style="font-size: 1.09rem;"><br>The “intro_to_neural_nets” provides a general introduction to neural networks. The theory is applied to a handwritten digit (MNIST) recognition.<br></span><span style="font-size: 1.09rem;"><br>The “Using Convolutional Neural Networks to classify dogs and cats” provides a general way to use convolutional neural networks to classify images.<br></span><span style="font-size: 1.09rem;"><br>The “TF_model_tutorial” can be used as an instruction guide to install all the packages needed to run the TensorFlow model ssdlite_mobilenet_v2_coco.<br></span><span style="font-size: 1.09rem;"><br>The “Getting ready with pyparrot_modified” provides an installation guide for all the libraries needed for the drone connectivity and the drone motion.</span></span></blockquote>
+                <blockquote><span style="font-style: normal;">Two methods for depth estimation were investigated and designed for stereo vision inputs, which both relied on (C)NN. Neural networks were implemented on Pytorch, an open source machine learning library widely praised amongst programmers for its efficiency and implementation ease. The (C)NNs were built using the structures from the example codes from Reni (2019), Manuel et al and Whdlgp (2019).&nbsp;</span></blockquote>
             </div>
         </div>
     </div>
-</section>
-
-<section class="mbr-section article content1 cid-rNJJOQfQg9" id="content2-1i">
-
-     
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote><p>Data Acquisition and Processing
-<br><br><span style="font-size: 1.09rem; font-style: normal;">In this project, two data-sets were created for the purpose of training the CNN. The first data-set is comprised of pictures of humans, while the second data-set consists of images of a dog.&nbsp;<br></span><span style="font-size: 1.09rem; font-style: normal;"><br>The data-sets were obtained in two ways: from images and from footage recorded on the drone. The images and videos were taken from multiple angles and heights in order to form a comprehensive training set for the CNN. &nbsp;<br></span><span style="font-size: 1.09rem; font-style: normal;"><br>For the image-based data-set, images were resized to a lower quality to reduce the processing requirements for the neural network. To do this, <a href="https://www.bricelam.net/ImageResizer/" target="_blank">Image Resizer for Windows</a> was used to set the picture quality to 827 x 480.</span></p></blockquote>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="cid-rNJJOQPWCY" id="video2-1j">
-
-    
-    
-    <figure class="mbr-figure align-center container">
-        <div class="video-block" style="width: 60%;">
-            <div><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/BTxoe3UbZgs?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
-        </div>
-    </figure>
 </section>
 
 <section class="mbr-section article content1 cid-rNJJOR9Cxw" id="content2-1k">
@@ -434,22 +579,37 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote><span style="font-style: normal;">For the video-based data-set, the video was split into images using <a href="https://www.videolan.org/vlc/index.html">VLC media player</a>. To do this, the settings of VLC had to be changed. Within Tools&gt;Preferences&gt;Show settings: all&gt; Video&gt;Filters&gt;Scene filter, the image format and size was set to .jpg 827 x 480. The recording ratio, which sets the amount of frames between each extracted image, was set to 24; this means that an image was extracted every 24 frames. 
-</span><br></blockquote>
+                <blockquote><p><span style="font-style: normal;"><strong>Method 1&nbsp;</strong></span></p><p><span style="font-style: normal;">The general structure of the CNN was built as a DiCNN (Koch et al, 2015) with the specifics described in Figure 6.
+ A NN was designed to accept two images from a stereo camera. 
+</span><span style="font-style: normal; font-size: 1.09rem;">Further, a pre-made depth map was given to be used for training the data. Then, the network was asked to set the weights and nodes in such a way that the output image, that would be created on the basis of the left and right image, will resemble an already known depth map  as much as possible.&nbsp;</span></p></blockquote>
             </div>
         </div>
     </div>
 </section>
 
-<section class="cid-rNJJORsv6P" id="video2-1l">
+<section class="cid-rONHQwR2J6" id="image1-1q">
 
     
-    
-    <figure class="mbr-figure align-center container">
-        <div class="video-block" style="width: 60%;">
-            <div><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/BlmlHE2A-QM?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+
+    <figure class="mbr-figure container">
+        <div class="image-block" style="width: 66%;">
+            <img src="assets/images/figure6-1227x611.png" width="1400" alt="Mobirise" title="">
+            
         </div>
     </figure>
+</section>
+
+<section class="mbr-section article content1 cid-rONI1t6n4p" id="content2-1r">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p>Figure 6: General structure from which is used in the first method where inputs from the left and right images are concatenated at a certain layer (Manuel, et al, 2016).</p></blockquote>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="mbr-section article content1 cid-rNJJORVlS4" id="content2-1m">
@@ -459,8 +619,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote><p><span style="font-style: normal;">These image-sets then needed to be bounded using <a href="https://github.com/tzutalin/labelImg">labelImg</a>. Bounding is setting a rectangular box around the dog or person in the image; this creates a set of x, y coordinates that inform the CNN where the object of interest is in the picture. The images were randomly allocated to test and train folders for the neural network. &nbsp;
-<br></span><span style="font-size: 1.09rem; font-style: normal;"><br>The bounded images then were converted into test and train .csv files - these are spreadsheets listing the coordinates of the bounding boxes in the images. From these .csv files, .tfrecords were made. A <a href="https://medium.com/mostly-ai/tensorflow-records-what-they-are-and-how-to-use-them-c46bc4bbb564">TensorFlow TFRecord</a> is a binary storage format that is optimised for data-set storage, integration and pre-processing. For these format conversions, a <a href="https://github.com/Hollyqui/PyStalk/blob/master/make_TFrecord.py">python script</a> was created to automate this. The .tfrecords are the files used to train the tensorflow object detector</span></p></blockquote>
+                <blockquote><p>Structure</p><p><span style="font-style: normal;">In order to create a depth map, the first step was to create the structure of the CNN. This consisted of a DiCNN (one for the left and one for the right image), with each input having 3x240x320 nodes, each corresponding to 1 pixel. 240x320 corresponds to the dimensions of the images, and 3 stands for 3 RGB colour channels. Secondly, each of the two inputs reduces the number of nodes, which then combine in the same CNN. During this process, the number of nodes was reduced by the convolutional layers to a number lower than the dimensions of the original image (&lt;240x320). In order to be able to compare the final output, the depth map, the size of information needed to be increased. This was achieved with upsampling. Upsampling added 0 around existing nodes, until the number of nodes reached the required dimensions.&nbsp;</span></p></blockquote>
             </div>
         </div>
     </div>
@@ -473,30 +632,9 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote>Movement Control 
-<br><span style="font-size: 1.09rem;"><br><span style="font-style: normal;">Roll, Pitch, Yaw, and Thrust were the four parameters used in this project to control the movement of the drone. Figure 4 describes these motions in greater detail.&nbsp;</span></span></blockquote>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="mbr-section content6 cid-rNJJOSwKCu" id="content6-1o">
-    
-     
-    
-    <div class="container">
-        <div class="media-container-row">
-            <div class="col-12 col-md-8">
-                <div class="media-container-row">
-                    <div class="mbr-figure" style="width: 125%;">
-                      <img src="assets/images/6dof-en-960x635.jpg" alt="Mobirise" title="">  
-                    </div>
-                    <div class="media-content">
-                        <div class="mbr-section-text">
-                            <p class="mbr-text mb-0 mbr-fonts-style display-7"><br><em>Figure 4: Schematic representation of the drone motion commands (Emissary Drones, 2019) <br><br></em>The change in yaw determines the rotation of the drone and allows it to track an object that is moving left or right. Roll allows the drone to move left or right. This allows the same tracking capability as yaw by moving the drone rather than rotating it. Pitch allows the drone to move forwards or backwards and therefore regulate its distance to the target. The vertical motion is controlled by the thrust of the propellers. This project implemented a fixed vertical motion. Manually the drone height could be adjusted.</p>
-                        </div>
-                    </div>
-                </div>
+                <blockquote><p>Data Processing&nbsp;<br><span style="font-size: 1.09rem;"><br><span style="font-style: normal;">Having the structure of CNN ready, the data needed to be transformed into a suitable form for the CNN training. The images and depth maps were converted into numpy arrays. The images were split into categories based on their illumination conditions and whether they were from the left or right camera. The data was further separated into testing and training data, with 90% of the data as training and the remaining 10% as testing data. The different illumination conditions were of the same 3D environment. As a result, the two depth map files could be used with all sets of camera data, as the depth of the image was independent from the lighting conditions.
+</span></span></p><p><span style="font-size: 1.09rem;"><span style="font-style: normal;">The final size of the 10 files used for testing was 5.75 GB, whilst the final size of the 10 files used for training was 51.76 GB. This size difference is there since the testing data was 10% of total data. The large file size meant that the size of the dataset fed through the network had to be reduced. Firstly, only the daylight images were chosen, as such lightning conditions seemed the most similar to the lighting conditions faced once the program is used in real life. Only the left depth map dataset was fed to the NN as generating only a single depth map was required to fulfill the aim of this project. 
+</span></span></p></blockquote>
             </div>
         </div>
     </div>
@@ -509,44 +647,12 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote>Box Smoothing
-<br><span style="font-style: normal; font-size: 1.09rem;"><br>Given the unreliability of the object recognition and the potential occlusion of objects (e.g. vegetation), the tracking is still experimental. The possible issues laid in a lack of object detection in some frames of the video. In response to this, a “smoothened box” was implemented. This box solves the issues by taking a weighted average of the location of the detected boxes of the last 30 frames. In doing so, the detection is made smoother and a possible sudden jump, causing an acceleration of the drone, is everted. The number of frames considered for the weighted average is modifiable. This particular implementation allowed the drone to compensate for the lack of boxes over a period of about one second (frames come in at a rate of 25/second).&nbsp;<br></span><span style="font-size: 1.09rem; font-style: normal;"><br>Currently, the frames are weighted as n^5, where n is the position of the frame. This means that the last frames weigh much more than the first frames. This is a good solution however, it is likely that an exponential weighting (e^n) would have been more efficient in updating smoothened boxes faster. This was not experimentally confirmed however, it remains highly probable. Due to the delay with the WIFI transmissions, the polynomial weighting is deemed to be less efficient as it causes an additional delay when objects are moving quickly. &nbsp;<br></span><span style="font-size: 1.09rem; font-style: normal;"><br>The second computation done by the box smoothing function selects one of the potentially multiple recognized objects for the tracking. This is done by choosing the box with the highest recognition certainty in the first frame. In every subsequent frame, the computation is implemented to check which of the boxes around the recognized objects is closest to the smoothened box. This way, a sort of ‘understanding’ of object permanence can be achieved. This is important to avoid the drone flying towards other animals that are not supposed to be tracked. One current issue is that the box switches away from one target very quickly when it is not recognized anymore. Instead, it finds another target since it assumes that the object moves very quickly.&nbsp;</span></blockquote><blockquote>
-<span style="font-size: 1.09rem;">Rotational vs Fixed Tracking&nbsp;<br></span><span style="font-style: normal; font-size: 1.09rem;"><br>The drone can operate on two different tracking modes; rotational and fixed. If rotational tracking is activated yaw and pitch are used and the roll stays constant. This tracking is much more dynamic and far more adept at tracking in open areas. The downside is that as GPS stabilization is not activated the drone tends to drift to the side. If fixed tracking is activated, the rotation is set on a given angle and the drone moves by only using roll and pitch. The issue of drifting is no longer present as the left/right motion is relative to the object. In other words, if the object doesn’t move, the drone won’t move either. That said, the drone has a tendency to lose the object that it is tracking despite the countermeasures in place.&nbsp;</span><span style="font-style: normal; font-size: 1.09rem;"></span></blockquote><blockquote>Pitch<span style="font-style: normal;">
-<br></span><span style="font-style: normal; font-size: 1.09rem;"><br>The drone motion is implemented so that the drone will constantly regulate its position according to the distance to the object. This distance is specified by a “desired box size”. The latter represents the area on the screen that the user would like the tracked object to cover.  This means that the drone will try to move further away from the object if it notices that more than the desired percentage of the screen is covered and vice versa. This desired distance is defined by two boxes (which are displayed in the GUI in light blue). One box is the maximum amount of the screen that should be covered and the other box represents the minimum amount of screen that should be covered. Consequently, the drone will adjust its distance so that the size of the object remains between those two boxes.&nbsp;<br></span><span style="font-style: normal; font-size: 1.09rem;"><br>The computation for this is not trivial and is currently expressed as the set_distance() function in the Movement_processing code file: &nbsp;</span></blockquote>
+                <blockquote><p>Training of Convolutional Neural Network<br><span style="font-style: normal; font-size: 1.09rem;"><br>The training selection of the images was then fed to the CNN, with left and right versions of the images each fed into their respective input CNN branches. The CNN initially output random depth values for each of the pixels, creating a random depth map. The output was then compared to the real depth map, and the loss evaluated with a binary cross-entropy loss function. Backwards propagation with slow learning rate was then used to slowly adjust the weights and nodes to minimise the loss function and therefore better match the real values. The image feeding process was done for 6 images at a time (batch size), for 40 epochs. 
+</span></p><p><span style="font-style: normal; font-size: 1.09rem;">Having done the training, the CNN was ready to be tested on a new set of images to evaluate whether it has learned how to create accurate and reliable depth maps.
+</span></p></blockquote><blockquote><p>
+<span style="font-size: 1.09rem;"><strong>Method 2</strong></span></p><p><span style="font-size: 1.09rem;"><br></span><span style="font-style: normal; font-size: 1.09rem;">The second method estimated the depth map directly from the disparity shift between left and right images. A neural network was designed to measure the affinity of specific portions of the two input images: a comparing function built upon this network was then called for each pixel on the left input image, to assess which pixel on the right they were corresponding to. The shift in coordinates between corresponding pixels was then calculated, and from this value the depth was estimated.
+</span></p><p><span style="font-style: normal; font-size: 1.09rem;"><br></span><span style="font-size: 1.09rem; font-style: normal;">In addition to Tsukuba dataset, the second method also used a secondary dataset provided courtesy of the Karlsruhe Institute of Technology and Toyota Technological Institute (KITTI, 2012). The latter dataset mainly comprised of stereo images taken from a moving vehicle of city streets. As this dataset did not come with adequate depth data, it was used to test the second method’s ability to perform on unseen data and create disparity maps of new images.&nbsp;</span></p></blockquote><blockquote><p><span style="font-size: 1.09rem;">Structure</span></p><p><span style="font-style: normal; font-size: 1.09rem;">The structure of the second DiCNN resembled the structure of the first DiCNN. Two stereo image inputs were firstly fed into two convolutional input branches.  However, unlike in the first structure, these two inputs were then merged into one </span><span style="font-size: 1.09rem;">non-convolutional </span><span style="font-style: normal; font-size: 1.09rem;">NN. The two CNN inputs each consisted of 3x19x19 input nodes, as later on 3x19x19 pixel portions of the image were fed into the CNN. Each of the CNN inputs was then flattened and joint together in the final non-convolutional NN. This last part of the DiCNN reduced the number of nodes to a single output. The output was a value between 0 and 1, corresponding to the similarity between two input images.&nbsp;</span></p></blockquote>
             </div>
-        </div>
-    </div>
-</section>
-
-<section class="features4 cid-rNJJOTv9Bl" id="features4-1q">
-    
-         
-
-    
-    <div class="container">
-        <div class="media-container-row">
-            <div class="card p-3 col-12 col-md-6">
-                <div class="card-wrapper media-container-row media-container-row">
-                    <div class="card-box">
-                        
-                        <p class="mbr-text mbr-fonts-style display-7">def set_distance(self):
-<br>
-<br>   if (self.box_size &gt; 0):
-<br>       if self.box_size &gt; self.max_distance:
-<br>           self.pitch = (self.box_size - self.max_distance) * -3
-<br>       elif self.box_size &lt; self.min_distance:
-<br>           self.pitch = (self.box_size - self.min_distance) * -3
-<br>       else:
-<br>           self.pitch = 0&nbsp;<br></p>
-                    </div>
-                </div>
-            </div>
-
-            
-
-            
-
-            
         </div>
     </div>
 </section>
@@ -558,11 +664,114 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote><p><span style="font-style: normal;">The key idea is that if the box of the object recognition is bigger than the maximal box size, the drone adjusts its distance accordingly: (current box size/maximal box size) * -3.
-<br></span><span style="font-style: normal; font-size: 1.09rem;"><br>Inversely, if the current box size is smaller than the minimal box size, the drone will move closer to the target :(minimal box size/current box size) * 3.&nbsp;</span></p><p><span style="font-style: normal; font-size: 1.09rem;"><br></span><span style="font-size: 1.09rem; font-style: normal;">This nonlinear computation is favored over a general linear approach such as: current box size - maximal box size) * 3. This is due to the fact that the change in box size on the last few meters is much bigger than at a high distance. At a distance of one metre, a person covers about half the screen whereas they almost cover the full screen half a metre closer. In comparison, there is no noticeable change between a box size of 100 metres or 110 metres away. Despite that, this formula is certainly not ideal. This is because it scales up drastically at big distances. Therefore dangerous situations can occur when the drone starts tracking from far away. In this case, the drone accelerates to very high speeds and will not stop in time due to its input delays.&nbsp;</span></p></blockquote><blockquote>
-<span style="font-size: 1.09rem;">Camera tilt&nbsp;<br></span><span style="font-style: normal; font-size: 1.09rem;"><br>The command for controlling camera tilt is very efficient in this current version. Despite it being relatively slow, it still keeps up with most of the motions of the drone. Increasing the sensitivity of the tilt was explored, but a tendency to overshoot the target rather than settle on its position was noticed. A helpful addition would have been to also make this function a polynomial. In doing so, the tilt should react faster and not overshoot the target. &nbsp;</span></blockquote><blockquote>Rotation
-<br><span style="font-style: normal; font-size: 1.09rem;"><br>The rotation is computed in the same way as the camera tilt and shows the same functionality. The only difference is that the rotation is sometimes unable to keep up with the objects. Therefore the same recommendation holds. It is advised to investigate a polynomial change in velocity.&nbsp;</span></blockquote><blockquote>Roll
-<br><span style="font-style: normal; font-size: 1.09rem;"><br>The roll command is very difficult to control. It is more difficult for the roll to keep up with the object’s movement as well as the other motion commands. It was observed that if it is set on a higher sensitivity, it overshoots very easily and if it is set on a lower sensitivity it almost always loses the object. It is also assumed that a polynomial/exponential translation would be beneficial, yet it seems that rotational tracking is (at least in open areas) much easier to implement.&nbsp;</span></blockquote>
+                <blockquote><p>Data Processing</p><p><span style="font-style: normal;">This NN is meant to output a similarity score between 0 and 1 of two images. To that end and to create a suitable dataset, ten images with a large variety of colours and patterns were picked. From each of them, 100 random points were chosen for which pixel portions were created. Then for each of these pixels, a 19x19 portion centred around the chosen pixel was drawn out. This represented the first set of testing images. To create the second set, noise was added to the image. In addition, for every pixel a new random selection was created with its centre positioned randomly up to ± 19 pixels on the x-axis and ± 19 pixels on the y-axis. This process resulted in pixel selection set pairs. As the location of these pairs was known, the similarity score was evaluated with the overlap amount, as illustrated in Figure 7. In other words, two selections fully overlapping would score a 1 and two selections 19 pixels away from each other would score a 0. This process produced 10 datasets, each with an array for the original image pixel selections, an array for the noisy image shifted pixel selections, and 100 corresponding similarity scores.&nbsp;</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content6 cid-rONPPpsQXY" id="content6-1u">
+    
+     
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12 col-md-8">
+                <div class="media-container-row">
+                    <div class="mbr-figure" style="width: 125%;">
+                      <img src="assets/images/figure7-694x377.png" alt="Mobirise" title="">  
+                    </div>
+                    <div class="media-content">
+                        <div class="mbr-section-text">
+                            <p class="mbr-text mb-0 mbr-fonts-style display-7"><br><em>Figure 7: Shift of 10 and 8 pixels on a 19x19 selection showing original and shifted area selections for NN training.</em><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rONQ9lScpH" id="content2-1v">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p>Training of the Neural Network</p><p><span style="font-style: normal;">Before providing the NN with real data, it had to be trained on how to recognise the similarity between two input images. That was done by inputting a 19x19 selection of an image into one of the two CNN input channels and its slightly shifted and noisy version in the second input CNN channel. The Neural Network would then output a value (0-1) for the similarity between the two sections of the image. The similarity value that the NN predicted was compared to the actual similarity value. Backwards propagation was then used to adjust weights and nodes in order to minimise the loss function, which gave the difference between the actual similarity and the one predicted by the NN. Both of the CNN input branches’ weights and nodes were adjusted independently of one another. Backwards propagation was used until the loss function approached zero, while the order in which the selection pairs and their similarities were loaded was shuffled to minimise the possibility of the NN picking up on unintended patterns and not learning the correct relationship between the depth and disparity.</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rONXw6s4dh" id="content2-1w">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p>Iteration algorithm</p><p><span style="font-style: normal;">The first step of the iteration algorithm was to determine the disparity shift of every pixel by comparing portions of the two images via the Neural Network. For each pixel on the left stereo image, a 19x19 window was created around it. At the same time, a window of the same size was also created around the pixel with the same coordinates on the right image. A compare function, built upon the NN, was responsible for assessing the similarity of the two windows. From this similarity, a score ranging from 0 to 1 was assigned to the pixel in the center of the right window using the NN. Then the right window was shifted along the horizontal axis in steps of one pixel, and each time the compare function was called to compare the new windows on the right with the original one on the left. This iteration occurred only for a specific region of the right image, referred to as the search area, chosen to be 20 pixels for the x coordinates and 2 pixels for the y coordinates. 
+</span></p><p><span style="font-style: normal;">For any given pixel on the left image, the pixel with the highest similarity score on the right search area was selected to be the corresponding element. A disparity value was then calculated from the difference in the coordinates of the two analogous pixels, and this value was then assigned to the original pixel on the left image.
+</span></p><p><span style="font-style: normal;">The process is iterated throughout every pixel in the left image so that the final output was one picture filled with disparity values. If the pixel in question was located near the edges of the images, the window would extend to a field of newly-created, padded pixels with value -1, so that the compare function would not account for them.
+</span></p><p><span style="font-style: normal;">The final step of the algorithm was to determine the depth from the disparity values. The depth was calculated based on the disparity shift formula. The depth then had to be normalised. This was done by selecting the maximum and minimum calculated depth values, and normalising all values to a new range whose bounds were determined by the maximum and minimum values. The new range was chosen to be from 0 to 255 m away from the camera. 
+</span></p><p><span style="font-style: normal;">The second method is heavily limited by the predefined search area surrounding the selected pixel. For situations in which objects are so close to the camera that they may not appear on both stereo images, or where they both appear but are outside the bounds of the search area, this method is not applicable. To avoid this limitation, the code would have to search the whole image for a potential match, greatly increasing processing power and time required. 
+</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rONY5FSZ6h" id="content2-1x">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p>Implementation of StereoPi</p><p><span style="font-style: normal;">To be able to create depth maps in real-time, the project needed a stereoscopic camera. A relatively cheap and practical solution was to use a StereoPi device. This is a modified Raspberry Pi (a small GNU/Linux computer) that includes two PiCamera sockets and as such allows its use for stereo imaging. The StereoPi came without any useful mounting support for this projects purposes, therefore a housing was designed using a CAD software which was then 3D printed (see Figure 8 for the assembled PyDepth project camera).</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cid-rORrq8w8qr" id="content15-2j">
+    
+    <div class="container">
+            <div class="media-container-row" style="width: 66%;">
+                <div class="img-item item1" style="width: 105%;">
+                    <div class="img-cont">
+                        <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(35, 35, 35);"></div>
+                        <img src="assets/images/jonas1-512x288.jpg" alt="" title="">
+                        <div class="img-caption">
+                            <p class="mbr-fonts-style align-left mbr-white display-5"></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="img-item">
+                    <div class="img-cont">
+                        <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(35, 35, 35);"></div>
+                        <img src="assets/images/jonas3-890x501.jpg" alt="" title="">
+                        <div class="img-caption">
+                            <p class="mbr-fonts-style align-left mbr-white display-5"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rOO19cHasG" id="content2-1z">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p>Figure 8: Assembled PyDepth project camera (left) and internal components (right).</p><p><br></p><p><span style="font-style: normal;">Given the relatively small computing power of the Raspberry Pi, it was decided that instead of running the NN on the Raspberry Pi, the video would be streamed through a local network onto another computer with greater processing power. This computer would then run the NN and compute depth maps. The connection was made using Python sockets that create a client-server tunnel between the two devices. The images were transformed into a byte stream and sent from the StereoPi (client) towards the main computer (server) and reconstructed using OpenCV to create the live feed. Every tenth frame was saved into an external data files as numpy arrays to be fed into the Neural Networks. The software written can be used on Linux, Windows and MacOS computers.
+</span></p></blockquote>
             </div>
         </div>
     </div>
@@ -574,51 +783,201 @@
 
     <div class="container">
         <div class="media-container-row">
-            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-8"><p>Results&nbsp;&nbsp;</p></div>
+            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-8"><p>Results and Discussion Method 1 &nbsp;</p></div>
         </div>
     </div>
 </section>
 
-<section class="cid-rNJJOV3YdX" id="video3-1t">
+<section class="mbr-section article content1 cid-rOO1JUTmOU" id="content2-20">
 
-    
-    
-    <figure class="mbr-figure align-center container">
-        <div class="video-block" style="width: 61%;">
-            <div><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/Qb2zBxOVat4?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><span style="font-style: normal;">In the training phase, this method initially gave very promising results, but it quickly became clear that the network was only overtraining on the given data-set. This was evident from the features as they seemed to be too specific. This was then confirmed by feeding in the testing data-set which contained only pictures that had never been given to the network. The resulting depth maps were extremely inaccurate, as can be seen by comparing Figure 9a, which displays the overtrained network output, and Figure 9b, showing the inaccurate output on testing data. 
+</span></p><p><span style="font-style: normal;">The output seen on figure Figure 9a has specific features, mainly the shadows outlining the shapes. These specifics support the idea of overtraining that was probably caused by the nature of the dataset: the dataset was made up of frames extracted from a video. This meant that many of the frames had very similar features which, as a result, trained the network in a very narrow and specific way. This in turn impacted on the processing of the new dataset, as seen in Figure 9b, as the network was not able to recognise the features it had learned by heart, and as a result outputted inaccurate depth maps.
+</span></p><p><span style="font-style: normal;">To solve the overtraining issue, the dataset was expanded upon by flipping the images in 3 different ways: flipping over x, over y, and over both, the x and y axes at the same time. This was done in order to diversify the dataset to make the features that the network previously overtrained on less accessible. This solution did not work as intended as it did not stop the network from overtraining.
+</span></p><p><span style="font-style: normal;">Other methods to prevent overtraining were considered, but due to time constraints, they were not fully applied in this project. Firstly, a more diverse dataset could have been implemented, which would have given the neural network a higher diversity of inputs. This would have mitigated the issues presented by the similarity of the video frame dataset, and provided a more effective NN. Another possibility would have been to simplify the network architecture. Complex networks present the possibility of overfitting, in which the network has too many free parameters, and as a result can begin to memorise over-specific features. An attempt was made to simplify the network, but the extended training time combined with no major improvements being observed in the initial stages of training led to this method being abandoned. Given more time, different structures and architectures could have been tried, possibly improving the outcome of our NN. Another technique, called regularisation, could have been implemented. Also called weight decay, this technique penalises certain parameters of the model in order to reduce their freedom. As a result, the model would have been less likely to fit noise and thus less likely to overfit. One last possible addition could have been the use of dropout layers which are specifically designed to reduce overfitting. They perform model averaging efficiently and thus simplify the NN. 
+</span></p></blockquote>
+            </div>
         </div>
-    </figure>
+    </div>
 </section>
 
-<section class="mbr-section article content1 cid-rNJJOVpY0l" id="content1-1u">
+<section class="cid-rOO3rwPcq4" id="content13-22">
+    
+    <div class="container">
+            <div class="media-container-row" style="width: 66%;">
+                <div class="img-item item1" style="width: 84%;">
+                    <img src="assets/images/figure9a-317x481.png" alt="" title="">
+                    <div class="img-caption">
+                        <p class="mbr-fonts-style align-center mbr-black display-7"><em>Figure 9a:&nbsp;Network output of training data after 40 epochs</em></p>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="assets/images/figure9b-470x600.jpg" alt="" title="">
+                    <div class="img-caption">
+                        <p class="mbr-fonts-style align-center mbr-black display-7"><em>
+                            Figure 9b:&nbsp;Same network output for test data</em></p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rOOboebJWJ" id="content1-27">
     
      
 
     <div class="container">
         <div class="media-container-row">
-            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8"><p>This video is an introduction on how to run and use PyStalk, which explains the GUI and the available settings.</p></div>
+            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-8"><p>Results and Discussion Method 2 &nbsp;</p></div>
         </div>
     </div>
 </section>
 
-<section class="cid-rNJJOVJnsE" id="video3-1v">
+<section class="mbr-section article content1 cid-rOObt42nkh" id="content2-28">
 
-    
-    
-    <figure class="mbr-figure align-center container">
-        <div class="video-block" style="width: 61%;">
-            <div><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/ESfWo3vWIFU?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
-        </div>
-    </figure>
-</section>
-
-<section class="mbr-section article content1 cid-rNJJOW6xdB" id="content1-1w">
-    
      
 
     <div class="container">
         <div class="media-container-row">
-            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-8"><p>This video &nbsp;shows the final result of our project; the drone tracking a person in an open field. It shows the limitations in speed and accuracy as well as the quality of recognition.</p></div>
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><span style="font-style: normal;">The issues encountered in the first method were mitigated in the second by replacing parts of the network with an iteration algorithm. Different datasets were used to train the Neural Network which yielded various results discussed beneath. To compare the performance of the different networks and to check the correctness of the algorithm, the image pair shown in Figure 10 was used as a testing image.</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cid-rOQYaGjszi" id="image4-2a">
+    <!-- Block parameters controls (Blue "Gear" panel) -->
+    
+    <!-- End block parameters -->
+    <div class="container images-container">
+            <div class="media-container-row" style="width: 80%;">
+                <div class="img-item item1" style="width: 109%;">
+                    <img src="assets/images/fig10a-363x274.png" alt="" title="">
+                    <div class="img-caption">
+                        <p class="mbr-fonts-style align-center mbr-black display-7">Figure 10: Left Test Stereo Image (KITTI dataset)</p>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="assets/images/fig10b-626x473.png" alt="" title="">
+                    <div class="img-caption">
+                        <p class="mbr-fonts-style align-center mbr-black display-7">
+                            Figure 10: Right Test Stereo Image (KITTI dataset)</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rOQZHoASim" id="content2-2e">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><span style="font-style: normal;">Figure 11 showcases one of the first depth maps that were generated using the second method which could indicate a faulty algorithm and/or a poorly trained network. When overlaid with the original image, as displayed in Figure 12, it is visible that the network specifically detects edges.</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cid-rOQZy7q4IQ" id="image4-2c">
+    <!-- Block parameters controls (Blue "Gear" panel) -->
+    
+    <!-- End block parameters -->
+    <div class="container images-container">
+            <div class="media-container-row" style="width: 80%;">
+                <div class="img-item item1" style="width: 109%;">
+                    <img src="assets/images/fig11-858x641.png" alt="" title="">
+                    <div class="img-caption">
+                        <p class="mbr-fonts-style align-center mbr-black display-7"><em>Figure 11: Example of (attempted) generated disparity map.</em><br><br><em><br></em></p>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="assets/images/fig12-854x642.png" alt="" title="">
+                    <div class="img-caption">
+                        <p class="mbr-fonts-style align-center mbr-black display-7"><em>Figure 12: Overlay of the image and its depth map. Green pixels are meant to show large disparities whereas dark blue pixels should show small disparities</em></p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rOR1MYwXu4" id="content2-2f">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><span style="font-style: normal;">After the first attempts, the generated depth maps always followed a specific pattern where bright pixels were followed by a vertical gradient (Figure 13). This could indicate that instead of iterating horizontally, the pixels were compared vertically. Therefore, the results were unclear as theoretically there should not be any disparity shifts in the vertical direction. This could also account for the NN returning an edge detection that only works for non-vertical edges: on a vertical edge all pixels look the same as seen from a small enough area whereas a diagonal or horizontal edge would have different pixels when looked at horizontally.</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features19 cid-rOR2htL6OE" id="features19-2h">
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="item features-image col-lg-4 col-md-6 col-sm-12">
+                <div class="item-wrapper">
+                    <div class="item-img card-img">
+                        <img src="assets/images/fig13a-700x523.png" alt="" title="">
+                    </div>
+                    <div class="item-content">
+                        <h4 class="item-title mbr-fonts-style pb-3 display-7"></h4>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-lg-4 col-md-6 col-sm-12">
+                <div class="item-wrapper">
+                    <div class="item-img card-img">
+                        <img src="assets/images/fig13b-700x525.png" alt="" title="">
+                    </div>
+                    <div class="item-content">
+                        <h4 class="item-title mbr-fonts-style pb-3 display-7"><em>Figure 13: Full sized image run where only every second pixel is checked (to improve processing times)</em></h4>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-lg-4 col-md-6 col-sm-12">
+                <div class="item-wrapper">
+                    <div class="item-img card-img">
+                        <img src="assets/images/fig13c-700x529.png" alt="" title="">
+                    </div>
+                    <div class="item-content">
+                        <h4 class="item-title mbr-fonts-style pb-3 display-7"></h4>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-rOR3M5KJkM" id="content2-2i">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p>Subsequently, the vertical iteration issues in the outputs were resolved by rewriting the iterative algorithm. Unfortunately, this pattern persisted and was observed horizontally. It was apparent that the network was regrettably only detecting edges instead of depths (Figure 13).</p></blockquote>
+            </div>
         </div>
     </div>
 </section>
@@ -996,20 +1355,76 @@
     </div>
 </section>
 
+<section class="features19 cid-rOO3jQ8tXs" id="features19-21">
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="item features-image col-lg-4 col-md-6 col-sm-12">
+                <div class="item-wrapper">
+                    <div class="item-img card-img">
+                        <img src="assets/images/background1.jpg">
+                    </div>
+                    <div class="item-content">
+                        <h4 class="item-title mbr-fonts-style pb-3 display-7">
+                            Item Title</h4>
+                        <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">Item Subtitle</h5>
+                        <p class="item-text display-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                            nam sit, incidunt praesentium officia nihil voluptatem similique, numquam, eos eius magnam
+                            accusamus quia. Aspernatur minus unde, adipisci excepturi atque quibusdam?</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-lg-4 col-md-6 col-sm-12">
+                <div class="item-wrapper">
+                    <div class="item-img card-img">
+                        <img src="assets/images/background2.jpg">
+                    </div>
+                    <div class="item-content">
+                        <h4 class="item-title mbr-fonts-style pb-3 display-7">
+                            Item Title</h4>
+                        <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">Item Subtitle</h5>
+                        <p class="item-text display-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                            nam sit, incidunt praesentium officia nihil voluptatem similique, numquam, eos eius magnam
+                            accusamus quia. Aspernatur minus unde, adipisci excepturi atque quibusdam?</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-lg-4 col-md-6 col-sm-12">
+                <div class="item-wrapper">
+                    <div class="item-img card-img">
+                        <img src="assets/images/background3.jpg">
+                    </div>
+                    <div class="item-content">
+                        <h4 class="item-title mbr-fonts-style pb-3 display-7">
+                            Item Title</h4>
+                        <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">Item Subtitle</h5>
+                        <p class="item-text display-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                            nam sit, incidunt praesentium officia nihil voluptatem similique, numquam, eos eius magnam
+                            accusamus quia. Aspernatur minus unde, adipisci excepturi atque quibusdam?</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/dropdown/js/nav-dropdown.js"></script>
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/mbr-popup-btns/mbr-popup-btns.js"></script>
   <script src="assets/datatables/jquery.data-tables.min.js"></script>
   <script src="assets/datatables/data-tables.bootstrap4.min.js"></script>
-  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
-  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
-  <script src="assets/mbr-popup-btns/mbr-popup-btns.js"></script>
-  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
   
