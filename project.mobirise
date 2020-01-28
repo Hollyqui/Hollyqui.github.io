@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Felix Quinque Personal incl. PyDepth-clone",
-    "currentPage": "page6.html",
+    "currentPage": "PyDepth.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -4372,7 +4372,7 @@
         }
       ]
     },
-    "page6.html": {
+    "PyDepth.html": {
       "settings": {
         "title": "PyDepth",
         "meta_descr": "The main page of the PyStalk animal surveillance drone github project",
